@@ -1,0 +1,8 @@
+PictureViewer:
+	sudo apt-get install feh
+
+Autostart a ssh file:
+	sudo nano rc.local
+	add at bottom:
+		sudo sh home/pi/Desktop/MessageSystem/launchMessageWindow.sh
+		sudo sh home/pi/Desktop/MessageSystem/launchDiashow.sh
